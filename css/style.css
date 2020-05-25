@@ -5,9 +5,8 @@
 
 .row-content {
     margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
+    padding: 10px 0px 10px 0px;
+    text-align: left;
 }
 
 .footer{
@@ -26,4 +25,9 @@ address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+}
+.About{
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px ridge;
 }
