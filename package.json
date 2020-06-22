@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
+    "sass": "node-sass -o css/ css/"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",

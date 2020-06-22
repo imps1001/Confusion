@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <title>Ristorante Con Fusion</title>
 </head>
 
@@ -59,7 +59,7 @@
                             <div class="col-sm-auto">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label"> Remember me
+                                    <label class="form-check-label"> Remember me?
                                     </label>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@
             </div>
     </header>
 
-    <div class="container">
+    <div class="max-width-container">
                 <div class="row row-content">
                    <div class="col">
                     <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -330,7 +330,7 @@
      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
      <script>
         $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 1000 } );
+            $("#mycarousel").carousel( { interval: 2000 } );
             $("#carouselButton").click(function(){
                 if($("#carouselButton").children("span").hasClass('fa-pause'))
                 {
